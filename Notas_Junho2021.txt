@@ -1,0 +1,67 @@
+
+10/06/2021
+
+
+11/06/2021
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+Experimente a nova plataforma cruzada PowerShell https://aka.ms/pscore6
+
+PS C:\Users\thiag\OneDrive\Documentos\RepositorioGit> git init
+Initialized empty Git repository in C:/Users/thiag/OneDrive/Documentos/RepositorioGit/.git/
+PS C:\Users\thiag\OneDrive\Documentos\RepositorioGit>
+
+
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+Experimente a nova plataforma cruzada PowerShell https://aka.ms/pscore6
+
+PS C:\Users\thiag\OneDrive\Documentos\RepositorioGit2> git status
+fatal: not a git repository (or any of the parent directories): .git
+Initialized empty Git repository in C:/Users/thiag/OneDrive/Documentos/RepositorioGit2/.git/
+PS C:\Users\thiag\OneDrive\Documentos\RepositorioGit2> git status
+On branch master
+
+No commits yet
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\thiag\OneDrive\Documentos\RepositorioGit2> git add .\Material_Git_e_GitHub_Aulas.pdf
+PS C:\Users\thiag\OneDrive\Documentos\RepositorioGit2> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   IMG_8253.JPG
+        new file:   Material_Git_e_GitHub_Aulas.pdf
+
+PS C:\Users\thiag\OneDrive\Documentos\RepositorioGit2> git commit
+hint: Waiting for your editor to close the file...
+[master (root-commit) bb5c302] Commit Teste 001
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 IMG_8253.JPG
+ create mode 100644 Material_Git_e_GitHub_Aulas.pdf
+PS C:\Users\thiag\OneDrive\Documentos\RepositorioGit2> git status
+On branch master
+nothing to commit, working tree clean
+PS C:\Users\thiag\OneDrive\Documentos\RepositorioGit2> git commit .\IMG_8253.JPG -m "Teste commit 1 arquivo"
+On branch master
+nothing to commit, working tree clean
+PS C:\Users\thiag\OneDrive\Documentos\RepositorioGit2> git status
+On branch master
+nothing to commit, working tree clean
+PS C:\Users\thiag\OneDrive\Documentos\RepositorioGit2>
+
+
+
+https://www.linkedin.com/in/thiagodmm
+
+
+ 
